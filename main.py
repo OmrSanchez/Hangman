@@ -4,7 +4,6 @@ from hangman_words import word_list
 
 word_list_len = len(word_list) - 1
 chosen_word = word_list[random.randint(0, word_list_len)]
-# print(f'Pssst, the solution is {chosen_word}.')
 
 match = False
 lives = 6
